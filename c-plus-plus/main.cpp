@@ -1,28 +1,22 @@
 #include <iostream>
+#include "functions.h"
 
 using namespace std;
 
 int main()
 {
-	cout << "Hello World";
-	cout << endl;
-	cout << 2+2;
+	cout << "Hello Math!";
 	cout << endl;
 
-	int i;
-	// fractional part will be lost
-	i = 4.9;
-	cout << i << endl;
+	double x = 4.9;
+	double y = 3.2;
+	double z = 1.3;
+	bool ex = false;
 
-	auto j = 5;
-	// j is an integer
-	cout << j << endl;
-
-	auto f = 5.9;
-	//f is an double
-	cout << f << endl;
-	f = 9.0 / 5;
-	cout << f << endl;
+	cout << x << " + " << y << " = " << add(x,y) << endl;
+	cout << x << " + " << y << " + " << z << " = " << add(x,y,z) << endl;
+	cout << "Test X: " << test(x) << endl;
+	cout << "Test ex: " << test(ex) << endl;	
 
 	return 0;
 }

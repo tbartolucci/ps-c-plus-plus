@@ -13,4 +13,14 @@ bool test(bool x)
 	return x;
 }
 
+bool test(double x)
+{
+	return x > 0;
+}
+
+void test()
+{
+	return;
+}
+
 
