@@ -1,9 +1,12 @@
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-	std::cout << "Hello World";
-	std::cout << std::endl;
-	std::cout << 2+2;
+	cout << "Hello World";
+	cout << endl;
+	cout << 2+2;
+	cout << endl;
 	return 0;
 }

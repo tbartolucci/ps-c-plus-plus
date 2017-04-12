@@ -2,3 +2,6 @@
 \.vs/c-plus-plus/v15/Browse\.VC\.db
 \.vs/c-plus-plus/v15/Browse\.VC\.opendb
 \Debug
+\.vscode/settings\.json
+
+c-plus-plus/a\.out
