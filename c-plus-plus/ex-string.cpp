@@ -9,6 +9,7 @@ int main()
     string word2;	
 
     cout << "Please enter the first word: " << endl;
+
     //cin >> word1;
     getline(cin, word1);
     cout << "Please enter the second word: " << endl;
